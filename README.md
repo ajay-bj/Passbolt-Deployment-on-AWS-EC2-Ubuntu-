@@ -180,6 +180,9 @@ cd /var/www/passbolt                                        # Move to the app di
   -f Admin \                        # <-- first name
   -l User \                         # <-- last name
   -r admin                          # <-- admin role
+or
+./bin/cake passbolt register_user -u admin@example.com -f Admin -l User -r admin
+
 ```
 - The command prints a **registration URL** — open it in your browser to finish setup, set password, and download the recovery kit.
 
